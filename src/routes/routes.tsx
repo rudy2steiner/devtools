@@ -41,7 +41,7 @@ export interface IToolRouteGroup {
 
 export const TOOL_ROUTES: IToolRouteGroup[] = [
 	{
-		label: 'HTML / CSS / Js tools',
+		label: 'Dev tools',
 		routes: [
 			{
 				label: 'HTML Formatter',
@@ -233,7 +233,7 @@ export const TOOL_ROUTES: IToolRouteGroup[] = [
 				path: '/xml-to-json-converter',
 				component: lazy(() => import('./XmlToJsonConverter/XmlToJsonConverter.component')),
 				icon: RetweetOutlined,
-				description: 'Effortlessly convert XML to JSON. True Devtools\' free online converter transforms your data with ease. Get clean, human-readable JSON in seconds!'
+				description: 'Effortlessly convert XML to JSON. Devtools\' free online converter transforms your data with ease. Get clean, human-readable JSON in seconds!'
 			},
 			{
 				label: 'JSON to YAML Converter',
@@ -260,7 +260,7 @@ export const TOOL_ROUTES: IToolRouteGroup[] = [
 				component: lazy(() => import('./XmlFormatter/XmlFormatter.component')),
 				icon: MenuUnfoldOutlined,
 				alias: ['XML Beautifier', 'XML Beautify'],
-				description: 'Instantly beautify & validate your XML code! True Devtools\' XML Formatter makes editing & debugging XML a breeze.'
+				description: 'Instantly beautify & validate your XML code! Devtools\' XML Formatter makes editing & debugging XML a breeze.'
 			},
 			{
 				label: 'XML Minifier',
@@ -276,7 +276,7 @@ export const TOOL_ROUTES: IToolRouteGroup[] = [
 				component: lazy(() => import('./Base64EncoderDecoder/Base64EncoderDecoder.component')),
 				icon: FileZipOutlined,
 				alias: ['Base64 Parser'],
-				description: 'Effortlessly encode & decode Base64 with True Devtools! Convert text for secure data transmission.'
+				description: 'Effortlessly encode & decode Base64 with Devtools! Convert text for secure data transmission.'
 			},
 			{
 				label: 'Base64 Image Encoder / Decoder',
@@ -284,7 +284,7 @@ export const TOOL_ROUTES: IToolRouteGroup[] = [
 				component: lazy(() => import('./Base64ImageEncoderDecoder/Base64ImageEncoderDecoder.component')),
 				icon: FileZipOutlined,
 				alias: ['Base64 Image Parser'],
-				description: 'Effortlessly convert images to Base64 & vice versa. True Devtools\' Base64 Encoder / Decoder simplifies image processing for transmission & management.'
+				description: 'Effortlessly convert images to Base64 & vice versa. Devtools\' Base64 Encoder / Decoder simplifies image processing for transmission & management.'
 			},
 			{
 				label: 'URL Encoder / Decoder',
@@ -292,7 +292,7 @@ export const TOOL_ROUTES: IToolRouteGroup[] = [
 				component: lazy(() => import('./UrlEncoderDecoder/UrlEncoderDecoder.component')),
 				icon: LinkOutlined,
 				alias: ['URL Parser'],
-				description: 'Decode encoded URLs or encode text for URLs with True Devtools\' URL Encoder / Decoder. Effortlessly navigate special characters & avoid errors.'
+				description: 'Decode encoded URLs or encode text for URLs with Devtools\' URL Encoder / Decoder. Effortlessly navigate special characters & avoid errors.'
 			},
 			{
 				label: 'URL Parser',
@@ -300,7 +300,7 @@ export const TOOL_ROUTES: IToolRouteGroup[] = [
 				component: lazy(() => import('./UrlParser/UrlParser.component')),
 				icon: LinkOutlined,
 				alias: ['URL Decoder'],
-				description: 'Uncover a URL\'s secrets. True Devtools\' URL Parser breaks down web addresses, revealing hidden details for developers & marketers.'
+				description: 'Uncover a URL\'s secrets. Devtools\' URL Parser breaks down web addresses, revealing hidden details for developers & marketers.'
 			},
 			{
 				label: 'Digital Certificate Decoder',
@@ -321,7 +321,7 @@ export const TOOL_ROUTES: IToolRouteGroup[] = [
 				component: lazy(() => import('./ImageResizer/ImageResizer.component')),
 				icon: PictureOutlined,
 				alias: ['Picture Photo Resizer'],
-				description: 'Optimize images instantly. True Devtools\' Image Resizer shrinks file size for blazing-fast load times and improved website SEO.'
+				description: 'Optimize images instantly. Devtools\' Image Resizer shrinks file size for blazing-fast load times and improved website SEO.'
 			},
 			{
 				label: 'JPEG / WEBP Compressor',
@@ -329,7 +329,7 @@ export const TOOL_ROUTES: IToolRouteGroup[] = [
 				component: lazy(() => import('./ImageCompressor/ImageCompressor.component')),
 				icon: FileImageOutlined,
 				alias: ['Picture Photo Compressor Compression'],
-				description: 'Crush image size with an acceptable quality loss. True Devtools\' Image Compressor optimizes images for faster websites & better SEO.'
+				description: 'Crush image size with an acceptable quality loss. Devtools\' Image Compressor optimizes images for faster websites & better SEO.'
 			},
 			{
 				label: 'JPG to PNG Converter',
@@ -337,7 +337,7 @@ export const TOOL_ROUTES: IToolRouteGroup[] = [
 				component: lazy(() => import('./ImageFormatConverter/ImageFormatConverter.component')),
 				icon: RetweetOutlined,
 				alias: ['Image Picture Photo Format Converter'],
-				description: 'Convert JPGs to PNGs with ease. True Devtools\' free JPG to PNG converter offers fast, high-quality conversion to optimize your images for web use.'
+				description: 'Convert JPGs to PNGs with ease. Devtools\' free JPG to PNG converter offers fast, high-quality conversion to optimize your images for web use.'
 			},
 			{
 				label: 'PNG to JPG Converter',
@@ -345,7 +345,7 @@ export const TOOL_ROUTES: IToolRouteGroup[] = [
 				component: lazy(() => import('./ImageFormatConverter/ImageFormatConverter.component')),
 				icon: RetweetOutlined,
 				alias: ['Image Picture Photo Format Converter'],
-				description: 'Convert PNGs to JPGs effortlessly! True Devtools\' free converter shrinks file size without losing quality, perfect for web optimization.'
+				description: 'Convert PNGs to JPGs effortlessly! Devtools\' free converter shrinks file size without losing quality, perfect for web optimization.'
 			},
 			{
 				label: 'Image Format Converter',
@@ -353,7 +353,7 @@ export const TOOL_ROUTES: IToolRouteGroup[] = [
 				component: lazy(() => import('./ImageFormatConverter/ImageFormatConverter.component')),
 				icon: RetweetOutlined,
 				alias: ['Image Picture Photo Format Converter'],
-				description: 'Convert images effortlessly. True Devtools\' Image Format Converter lets you switch between JPG, PNG, WEBP, GIF & more in seconds.'
+				description: 'Convert images effortlessly. Devtools\' Image Format Converter lets you switch between JPG, PNG, WEBP, GIF & more in seconds.'
 			}
 		]
 	},
@@ -366,7 +366,7 @@ export const TOOL_ROUTES: IToolRouteGroup[] = [
 				component: lazy(() => import('./ColorConverter/ColorConverter.component')),
 				icon: BgColorsOutlined,
 				alias: ['HEX RGB HSL HSV HWB CMYK Converter'],
-				description: 'Effortless color conversion. True Devtools\' Color Converter lets you switch between HEX, RGB & HSL codes in seconds. Design with confidence!'
+				description: 'Effortless color conversion. Devtools\' Color Converter lets you switch between HEX, RGB & HSL codes in seconds. Design with confidence!'
 			},
 			{
 				label: 'Number Base Converter',
@@ -374,7 +374,7 @@ export const TOOL_ROUTES: IToolRouteGroup[] = [
 				component: lazy(() => import('./NumberBaseConverter/NumberBaseConverter.component')),
 				icon: FieldBinaryOutlined,
 				alias: ['Binary Octal Decimal Hex Base Converter'],
-				description: 'Effortlessly convert numbers between bases (binary, octal, decimal, hex) with True Devtools\' Number Base Converter.'
+				description: 'Effortlessly convert numbers between bases (binary, octal, decimal, hex) with Devtools\' Number Base Converter.'
 			},
 			{
 				label: 'UUID Generator',
@@ -382,7 +382,7 @@ export const TOOL_ROUTES: IToolRouteGroup[] = [
 				component: lazy(() => import('./UuidGenerator/UuidGenerator.component')),
 				icon: FieldNumberOutlined,
 				alias: ['UUID Randomizer'],
-				description: 'Need a unique identifier? Generate strong, random UUIDs with True Devtools for free. Easy to use and guaranteed uniqueness.'
+				description: 'Need a unique identifier? Generate strong, random UUIDs with Devtools for free. Easy to use and guaranteed uniqueness.'
 			},
 			{
 				label: 'Hash Generator',
@@ -390,7 +390,7 @@ export const TOOL_ROUTES: IToolRouteGroup[] = [
 				component: lazy(() => import('./HashGenerator/HashGenerator.component')),
 				icon: NumberOutlined,
 				alias: ['MD2 MD4 MD5 SHA1 SHA224 SHA256 SHA384 SHA512 Hash Randomizer'],
-				description: 'Generate secure hashes with True Devtools. Protect passwords & verify data integrity with various hashing algorithms.'
+				description: 'Generate secure hashes with Devtools. Protect passwords & verify data integrity with various hashing algorithms.'
 			},
 			{
 				label: 'Bcrypt Hash Generator & Checker',
@@ -398,7 +398,7 @@ export const TOOL_ROUTES: IToolRouteGroup[] = [
 				component: lazy(() => import('./BcryptHashGeneratorChecker/BcryptHashGeneratorChecker.component')),
 				icon: NumberOutlined,
 				alias: ['Bcrypt Hash Compare Validate Validator'],
-				description: 'Securely hash passwords with True Devtools\'s free Bcrypt generator & checker. Verify encrypted passwords instantly.'
+				description: 'Securely hash passwords with Devtools\'s free Bcrypt generator & checker. Verify encrypted passwords instantly.'
 			},
 			{
 				label: 'JWT Decoder',
@@ -406,7 +406,7 @@ export const TOOL_ROUTES: IToolRouteGroup[] = [
 				component: lazy(() => import('./JwtDecoder/JwtDecoder.component')),
 				icon: KeyOutlined,
 				alias: ['Json Web Token Decoder Parser'],
-				description: 'Decode JWTs with ease. True Devtools\' JWT Decoder cracks open JSON Web Tokens, revealing their content for streamlined debugging and analysis.'
+				description: 'Decode JWTs with ease. Devtools\' JWT Decoder cracks open JSON Web Tokens, revealing their content for streamlined debugging and analysis.'
 			},
 			{
 				label: 'SQL Formatter',
@@ -414,7 +414,7 @@ export const TOOL_ROUTES: IToolRouteGroup[] = [
 				component: lazy(() => import('./SqlFormatter/SqlFormatter.component')),
 				icon: ConsoleSqlOutlined,
 				alias: ['SQL Beautifier', 'SQL Beautify'],
-				description: 'Unleash the power of readable queries. True Devtools\' SQL Formatter cleans and organizes your SQL code, making it easier to understand and debug.'
+				description: 'Unleash the power of readable queries. Devtools\' SQL Formatter cleans and organizes your SQL code, making it easier to understand and debug.'
 			},
 			{
 				label: 'Unix Timestamp Parser',
@@ -429,7 +429,7 @@ export const TOOL_ROUTES: IToolRouteGroup[] = [
 				component: lazy(() => import('./CronExpressionParser/CronExpressionParser.component')),
 				icon: SyncOutlined,
 				alias: ['Crontab Expression Parser'],
-				description: 'Unscrambling Cron? True Devtools\' Cron Expression Parser makes scheduling tasks a breeze. Parse & validate your Cron expressions effortlessly.'
+				description: 'Unscrambling Cron? Devtools\' Cron Expression Parser makes scheduling tasks a breeze. Parse & validate your Cron expressions effortlessly.'
 			}
 		]
 	}

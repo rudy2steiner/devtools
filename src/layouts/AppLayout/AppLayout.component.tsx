@@ -67,15 +67,15 @@ const AppLayout: FC = () => {
 	}, [location, toolRoute])
 
 	const routeTitle = useMemo(() => {
-		if (!routeLabel) return `True Devtools - All-in-one Toolkit for Developers`
+		if (!routeLabel) return `Devtools - All-in-one Toolkit for Developers`
 
-		return `${routeLabel} | True Devtools`
+		return `${routeLabel} | Devtools.now`
 	}, [routeLabel])
 
 	const routeDescription = useMemo(() => {
 		if (toolRoute && toolRoute.description) return toolRoute.description
 
-		return `Stop pasting your code on random websites, True Devtools centralizes all your go-to utilities in one convenient location with 45+ carefully crafted tools.`
+		return `Stop pasting your code on random websites, Devtools centralizes all your go-to utilities in one convenient location with 45+ carefully crafted tools.`
 	}, [toolRoute])
 
 	const [searchQuery, setSearchQuery] = useState('')
@@ -126,13 +126,13 @@ const AppLayout: FC = () => {
 				<Layout.Header className={`${theme === 'light' ? 'bg-white' : ''} p-0 z-10 shadow-sm flex items-center`}>
 					<Link to='/' className='items-center gap-2 w-[310px] p-7 hidden xl:flex'>
 						<img className='w-10' src={iconImageUrl} alt={description} />
-						<Typography.Title level={2} className='text-xl mb-0'>True Devtools</Typography.Title>
+						<Typography.Title level={2} className='text-xl mb-0'>Devtools</Typography.Title>
 					</Link>
 					<Divider type='vertical' className='h-6 m-0 hidden xl:block' />
 					<div className='grow flex items-center justify-between'>
 						<Typography.Title className='text-2xl font-normal p-8 mb-0'>{routeLabel}</Typography.Title>
 						<div className='mx-8 flex items-center gap-4'>
-							<Button className='hidden sm:block' icon={<GithubOutlined />} type='text' size='large' href='https://github.com/dathoangnd/truedevtools.com/issues' target='_blank'>Report an issue</Button>
+							<Button className='hidden sm:block' icon={<GithubOutlined />} type='text' size='large' href='https://github.com/dathoangnd/truedevtools.com/issues' target='_blank'> Report issues </Button>
 							<Switch
 								checkedChildren={<MoonOutlined />}
 								unCheckedChildren={<SunOutlined />}

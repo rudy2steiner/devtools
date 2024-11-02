@@ -14,9 +14,9 @@ export default defineConfig({
         maximumFileSizeToCacheInBytes: 5 * 1024 * 1024
       },
       manifest: {
-        name: 'True Devtools',
-        short_name: 'True Devtools',
-        description: 'Stop pasting your code on random websites, True Devtools centralizes all your go-to utilities in one convenient location with 45+ carefully crafted tools.',
+        name: 'Devtools',
+        short_name: 'Devtools',
+        description: 'Stop pasting your code on random websites, Devtools centralizes all your go-to utilities in one convenient location with 45+ carefully crafted tools.',
         theme_color: '#1677ff',
         icons: [
           {
