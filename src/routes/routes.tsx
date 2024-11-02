@@ -41,7 +41,7 @@ export interface IToolRouteGroup {
 
 export const TOOL_ROUTES: IToolRouteGroup[] = [
 	{
-		label: 'Dev tools',
+		label: 'HTML / CSS / JS tools',
 		routes: [
 			{
 				label: 'HTML Formatter',
