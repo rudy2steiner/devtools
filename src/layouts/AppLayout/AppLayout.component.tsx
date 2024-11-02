@@ -67,7 +67,7 @@ const AppLayout: FC = () => {
 	}, [location, toolRoute])
 
 	const routeTitle = useMemo(() => {
-		if (!routeLabel) return `Devtools - All-in-one Toolkit for Developers`
+		if (!routeLabel) return `Online dev tools for developers | Devtools.now`
 
 		return `${routeLabel} | Devtools.now`
 	}, [routeLabel])
