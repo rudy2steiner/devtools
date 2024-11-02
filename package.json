@@ -1,6 +1,6 @@
 {
-  "name": "truedevtools",
-  "description": "All-in-one Toolkit for Developers",
+  "name": "devtools",
+  "description": "Online dev tools for developers",
   "private": true,
   "version": "0.0.0",
   "type": "module",
